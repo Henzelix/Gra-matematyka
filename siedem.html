@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pytanie nr 7</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<h1>Pytanie 7</h1><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+	<p>Podaj wynik działania 86,6 x 23</p><br /><br /><br /><br />
+	<div class="inputs">
+		Odpowiedź: <input type="text" name="tak" id="numb">
+		<button type="button" onclick="myFunction()">Dalej</button>
+	</div>
+
+	<script>
+		function myFunction() {
+		  var x, text;
+
+		  // Get the value of the input field with id="numb"
+		  x = document.getElementById("numb").value;
+
+		  // If x is Not a Number or less than one or greater than 10
+		  if (x == 1991.8 || x == "1991,8") {
+		    location.replace("osiem.html");
+		  } else {
+		    window.location.href = "zla.html"
+		  }
+		  document.getElementById("demo").innerHTML = text;
+		}
+	</script>
+
+</body>
+</html>

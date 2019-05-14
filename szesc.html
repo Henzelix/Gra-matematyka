@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pytanie nr 6</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<h1>Pytanie 6</h1><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+	<p>Jaką długość ma przeciwprostokątna trójkąta prostokątnego o przyprostokątnych o długościach 12 i 16? (Wynik podaj bez jednostek)</p><br /><br /><br /><br />
+	<div class="inputs">
+		Odpowiedź: <input type="text" name="tak" id="numb">
+		<button type="button" onclick="myFunction()">Dalej</button>
+	</div>
+
+	<script>
+		function myFunction() {
+		  var x, text;
+
+		  // Get the value of the input field with id="numb"
+		  x = document.getElementById("numb").value;
+
+		  // If x is Not a Number or less than one or greater than 10
+		  if (x == 20) {
+		    location.replace("siedem.html");
+		  } else {
+		    window.location.href = "zla.html"
+		  }
+		  document.getElementById("demo").innerHTML = text;
+		}
+	</script>
+
+</body>
+</html>

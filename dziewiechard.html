@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pytanie nr 9</title>
+	<link rel="stylesheet" type="text/css" href="stajl.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Pytanie 9</h1>
+		<div id="some_div"></div>
+		<div style="clear: both;"></div>
+	</div>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+	<p>Liczba MDCCLXXXIX w zapisie arabskim to:</p><br /><br /><br /><br />
+	<div class="buttons">
+		<button><a href="zlahard.html">A. <b>1889</b></a></button>
+		<button><a href="dziesiechard.html">B. <b>1789</b></a></button>
+		<button><a href="zlahard.html">C. <b>1675</b></a></button>
+		<button><a href="zlahard.html">D. <b>1788</b></a></button>
+	</div>
+
+	<script>
+		var timeLeft = 50;
+		var elem = document.getElementById('some_div');
+		var timerId = setInterval(countdown, 1000);
+
+		function countdown() {
+		    if (timeLeft == -1) {
+		        clearTimeout(timerId);
+		        doSomething();
+		    } else {
+		        elem.innerHTML = timeLeft;
+		        timeLeft--;
+		    }
+		    if (timeLeft == 19){
+		    	elem.style.color = 'orange';
+		    }
+		    if (timeLeft == 9){
+		    	elem.style.color = 'red';
+		    }
+
+		}
+
+		function doSomething() {
+		    window.location.href = "zlahard.html"
+		}
+
+	</script>
+
+</body>
+</html>

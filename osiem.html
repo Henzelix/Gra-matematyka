@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pytanie nr 8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<h1>Pytanie 8</h1><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+	<p>Ania idzie z prędkością 30 m/s. Ile kilometrów pokona w ciągu godziny?</p><br /><br /><br /><br />
+	<div class="inputs">
+		Odpowiedź: <input type="text" name="tak" id="numb">
+		<button type="button" onclick="myFunction()">Dalej</button>
+	</div>
+
+	<script>
+		function myFunction() {
+		  var x, text;
+
+		  // Get the value of the input field with id="numb"
+		  x = document.getElementById("numb").value;
+
+		  // If x is Not a Number or less than one or greater than 10
+		  if (x == 108 || x == "108 km" || x == "108km") {
+		    location.replace("dziewiec.html");
+		  } else {
+		    window.location.href = "zla.html"
+		  }
+		  document.getElementById("demo").innerHTML = text;
+		}
+	</script>
+
+</body>
+</html>

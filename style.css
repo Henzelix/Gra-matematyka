@@ -1,0 +1,198 @@
+body
+{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container
+{
+	text-align: center;
+
+}
+
+.hard img
+{
+
+	width: 252px;
+	height: 70px;
+	max-width: 100%;
+	height: auto;
+	-webkit-transition: width 0.5s, height 0.5s; /* For Safari 3.1 to 6.0 */
+  	transition: width 0.5s, height 0.5s;
+  	margin-top: 40px;
+}
+
+.hard img:hover
+{
+	width: 232px;
+
+
+}
+
+.logo img
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: -10px;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+	margin-top: -70px;
+}
+
+.start img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+	width: 252px;
+	height: 70px;
+	margin-top: -100px;
+	-webkit-transition: width 0.3s, height 0.3s; /* For Safari 3.1 to 6.0 */
+  	transition: width 0.3s, height 0.3s;
+}
+
+.start img:hover
+{
+	width: 222px;
+	height: 65px;
+}
+
+.koniec img
+{
+	width: 580px;
+	height: 616px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+h1
+{
+	font-size: 60px;
+
+}
+
+h2
+{
+	font-size: 60px;
+	text-align: center;
+}
+
+p
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+button
+{
+  border: none;
+  background-color: #c92e2e;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 100px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+button:hover
+{
+	background-color: #8e1616;
+}
+
+.buttons
+{
+	text-align: center;
+	margin: 0;
+}
+
+button.odnowa
+{
+	background-color: #0263ff;
+	padding: 30px 80px;
+	font-size: 30px;
+}
+
+button.odnowadwa
+{
+	background-color: #0263ff;
+	padding: 25px 50px;
+	font-size: 25px;
+}
+
+button.wroc
+{
+	background-color: #e29922;
+	padding: 30px 80px;
+	font-size: 30px;
+}
+
+button.wroc:hover
+{
+	background-color: #cc8612;
+	transition: 0.3s;
+}
+
+button.odnowa:hover
+{
+	background-color: #0748b2;
+	transition: 0.3s;
+}
+
+button.odnowa:focus
+{
+	background-color: #af710f;
+
+}
+
+button.odnowadwa:hover
+{
+	background-color: #e49519;
+	transition: 0.5s;
+}
+
+input
+{
+	padding: 10px 80px;
+	margin-left: 20px;
+	font-size: 20px;
+	border: black solid 2px;
+	border-radius: 100px;
+}
+
+.inputs
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 60px;
+	text-align: right;
+
+	margin-top: 0px;
+}
+
+#some_div
+{
+	font-size: 80px;
+	float: right;
+	z-index: 1000;
+	margin-top: -80px;
+}
+
+
+input:focus {outline:0;}
+button:focus {outline:0;}

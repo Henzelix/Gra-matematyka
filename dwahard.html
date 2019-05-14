@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pytanie nr 2</title>
+	<link rel="stylesheet" type="text/css" href="stajl.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Pytanie 2</h1>
+		<div id="some_div"></div>
+		<div style="clear: both;"></div>
+	</div>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+	<p>Jeżeli dwie przyprostokątne trójkąta prostokątnego są równe 9 cm i 12 cm, to jego przeciwprostokątna ma długość:</p><br /><br /><br /><br />
+	<div class="buttons">
+		<button><a href="zlahard.html">A. <b>10 cm</b></a></button>
+		<button><a href="zlahard.html">B. <b>13 cm</b></a></button>
+		<button><a href="trzyhard.html">C. <b>15 cm</b></a></button>
+		<button><a href="zlahard.html">D. <b>14 cm</b></a></button>
+	</div>
+
+	<script>
+		var timeLeft = 50;
+		var elem = document.getElementById('some_div');
+		var timerId = setInterval(countdown, 1000);
+
+		function countdown() {
+		    if (timeLeft == -1) {
+		        clearTimeout(timerId);
+		        doSomething();
+		    } else {
+		        elem.innerHTML = timeLeft;
+		        timeLeft--;
+		    }
+		    if (timeLeft == 19){
+		    	elem.style.color = 'orange';
+		    }
+		    if (timeLeft == 9){
+		    	elem.style.color = 'red';
+		    }
+
+		}
+
+		function doSomething() {
+		    window.location.href = "zlahard.html"
+		}
+
+	</script>
+
+</body>
+</html>
